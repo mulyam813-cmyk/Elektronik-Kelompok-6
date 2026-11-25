@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f5fb;
+  --foreground: #0f2240;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
